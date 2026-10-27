@@ -18,6 +18,7 @@
     self = [super initWithNibName:@"TTErrorViewController" bundle:nil];
     if(self) {
         [self view];
+        ((NSBox *)self.view).borderColor = [[NSColor controlTextColor] colorWithAlphaComponent:0.42];
         _information.stringValue = errorInformation ?: @"";
         _message.stringValue = errorMessage ?: @"";
         [_message setFont:[NSFont boldSystemFontOfSize:13]];

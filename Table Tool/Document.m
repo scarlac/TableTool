@@ -66,6 +66,8 @@
     [super windowControllerDidLoadNib:aController];
     dataCell = [self.tableView.tableColumns.firstObject dataCell];
     self.tableView.style = NSTableViewStylePlain;
+    self.tableView.backgroundColor = [NSColor colorNamed:@"TableBackground"];
+    self.tableView.gridColor = [NSColor colorNamed:@"TableGridColor"];
     [self updateTableColumns];
     
     if (!statusBarFormatViewController) {

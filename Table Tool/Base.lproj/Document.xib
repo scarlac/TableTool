@@ -50,9 +50,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="837" height="500"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <size key="intercellSpacing" width="0" height="0"/>
-                                                    <color key="backgroundColor" red="0.96014835858585856" green="0.96014835858585856" blue="0.96014835858585856" alpha="1" colorSpace="calibratedRGB"/>
                                                     <tableViewGridLines key="gridStyleMask" vertical="YES" horizontal="YES"/>
-                                                    <color key="gridColor" red="0.0" green="0.0" blue="0.0" alpha="0.050000000000000003" colorSpace="calibratedRGB"/>
                                                     <tableColumns>
                                                         <tableColumn identifier="0" width="676" minWidth="40" maxWidth="1000" id="XxD-uX-D3f">
                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
