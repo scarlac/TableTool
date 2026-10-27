@@ -40,7 +40,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="837" height="523"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <scrollView wantsLayer="YES" borderType="none" autohidesScrollers="YES" horizontalLineScroll="18" horizontalPageScroll="10" verticalLineScroll="18" verticalPageScroll="10" translatesAutoresizingMaskIntoConstraints="NO" id="HMT-zz-891">
+                                    <scrollView wantsLayer="YES" borderType="none" autohidesScrollers="YES" horizontalLineScroll="18" horizontalPageScroll="10" verticalLineScroll="17" verticalPageScroll="10" translatesAutoresizingMaskIntoConstraints="NO" id="HMT-zz-891">
                                         <rect key="frame" x="0.0" y="0.0" width="837" height="523"/>
                                         <clipView key="contentView" id="GkF-y6-0qi">
                                             <rect key="frame" x="0.0" y="0.0" width="837" height="523"/>
@@ -49,7 +49,7 @@
                                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="none" columnSelection="YES" autosaveColumns="NO" headerView="81d-2U-CFl" id="bLT-tG-Zln">
                                                     <rect key="frame" x="0.0" y="0.0" width="837" height="500"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <size key="intercellSpacing" width="1" height="1"/>
+                                                    <size key="intercellSpacing" width="0" height="0"/>
                                                     <color key="backgroundColor" red="0.96014835858585856" green="0.96014835858585856" blue="0.96014835858585856" alpha="1" colorSpace="calibratedRGB"/>
                                                     <tableViewGridLines key="gridStyleMask" vertical="YES" horizontal="YES"/>
                                                     <color key="gridColor" red="0.0" green="0.0" blue="0.0" alpha="0.050000000000000003" colorSpace="calibratedRGB"/>

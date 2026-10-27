@@ -65,6 +65,7 @@
 - (void)windowControllerDidLoadNib:(NSWindowController *)aController {
     [super windowControllerDidLoadNib:aController];
     dataCell = [self.tableView.tableColumns.firstObject dataCell];
+    self.tableView.style = NSTableViewStylePlain;
     [self updateTableColumns];
     
     if (!statusBarFormatViewController) {
